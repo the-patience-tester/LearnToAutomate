@@ -1,28 +1,12 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using Xamarin.UITest;
-using Xamarin.UITest.Queries;
 
 namespace UITestDemo.UITest
 {
-    [TestFixture(Platform.Android)]
-    [TestFixture(Platform.iOS)]
-    public class BadTests
+    public class BadTests : Setup.BaseTests
     {
-        IApp app;
-        Platform platform;
-
-        public BadTests(Platform platform)
+        public BadTests(Platform p) : base(p)
         {
-            this.platform = platform;
-        }
-
-        [SetUp]
-        public void BeforeEachTest()
-        {
-            app = AppInitializer.StartApp(platform);
         }
 
         [Test]
