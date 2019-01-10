@@ -2,3 +2,7 @@ DemoUITestProject/.vs
 DemoUITestProject/bin
 DemoUITestProject/obj
 DemoUITestProject/packages
+src/DemoUITestProject/bin
+src/DemoUITestProject/.vs
+src/DemoUITestProject/obj
+src/DemoUITestProject/packages
