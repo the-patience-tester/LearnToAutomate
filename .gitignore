@@ -6,3 +6,7 @@ src/DemoUITestProject/bin
 src/DemoUITestProject/.vs
 src/DemoUITestProject/obj
 src/DemoUITestProject/packages
+src/Protractor/node_modules
+.idea/**/workspace.xml
+.idea/*.iml
+modules.xml
