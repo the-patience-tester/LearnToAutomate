@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Conf.js" type="JavaScriptTestRunnerProtractor" nameIsGenerated="true">
+    <config-file value="$PROJECT_DIR$/src/Protractor/Conf.js" />
+    <node-interpreter value="project" />
+    <protractor-package value="$PROJECT_DIR$/src/Protractor/node_modules/protractor" />
+    <protractor-options value="" />
+    <envs />
+    <scope-kind value="ALL" />
+    <method v="2" />
+  </configuration>
+</component>
