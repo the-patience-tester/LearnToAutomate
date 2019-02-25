@@ -1,0 +1,1 @@
+This directory is required to store WebDriver logs. It is not created automatically.
