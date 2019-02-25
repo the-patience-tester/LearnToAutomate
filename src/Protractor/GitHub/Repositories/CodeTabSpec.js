@@ -7,14 +7,14 @@ chai.use(chaiAsPromised);
 
 const HomePage = require('../HomePage/HomePage.js');
 
-describe('Goodest: the clone or download button and dialog appear and can be interacted with', function() {
+describe('Better: the clone or download button and dialog appear and can be interacted with', function() {
 
     beforeEach(function () {
         browser.waitForAngularEnabled(false); //This needs to be set before browser.get() if the page that's returned is not an Angular page
         browser.get('https://github.com/');
     });
 
-    it('Goodest: should show clone or download panel', function() {
+    it('Better: should show clone or download panel', function() {
         // Given
         let homePage = HomePage.waitForPage();
         let searchResultsPage = homePage.search("angular");
