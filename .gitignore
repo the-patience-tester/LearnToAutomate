@@ -10,3 +10,7 @@ src/Protractor/node_modules
 .idea/**/workspace.xml
 .idea/*.iml
 modules.xml
+src/ProtractorTypeScript/node_modules
+src/ProtractorTypeScript/.vscode
+src/ProtractorTypeScript/logs/webdriver_log*
+src/ProtractorTypeScript/tmp
