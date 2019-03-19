@@ -1,0 +1,34 @@
+{
+  "name": "rmm-ui-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tslint": "tslint -c config/tslint.json -p tsconfig.json",
+    "compile": "failsafe tsc tslint",
+    "pretest": "npm run compile",
+    "test": "protractor tmp/config/protractor.config.js",
+    "postinstall": "webdriver-manager update"
+  },
+  "author": "",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@PageObjects": "tmp/src/PageObjects",
+    "@Common": "tmp/src/Common",
+    "@Config": "tmp/config"
+  },
+  "dependencies": {
+    "@types/jasmine": "3.3.5",
+    "@types/jasminewd2": "2.0.6",
+    "@types/node": "10.12.18",
+    "jasmine-spec-reporter": "4.2.1",
+    "module-alias": "2.1.0",
+    "node": "11.6.0",
+    "npm-failsafe": "0.4.1",
+    "protractor": "5.4.2",
+    "tslint": "5.12.1",
+    "typescript": "3.2.2",
+    "typescript-tslint-plugin": "0.3.0"
+  }
+}

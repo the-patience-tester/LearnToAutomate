@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "quotemark": [true, "single"],
+    "curly": true,
+    "prefer-const": true,
+    "new-parens": true,
+    "array-type": [true, "array"],
+    "class-name": true,
+    "file-name-casing": [true, "pascal-case"],
+    "whitespace": [true, "check-module"],
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": true,
+    "unnecessary-constructor": true,
+    "no-Relative-imports": true
+  },
+  "linterOptions": {
+    "exclude": [
+        "node_modules/**",
+        "tslint-rules/**"
+    ]
+  },
+  "rulesDirectory": "../tmp/config/tslint-rules/"
+}

@@ -1,0 +1,1 @@
+This directory contains screenshots taken when tests fail.
