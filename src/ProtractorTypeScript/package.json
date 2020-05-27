@@ -9,7 +9,7 @@
     "compile": "failsafe tsc tslint",
     "pretest": "npm run compile",
     "test": "protractor tmp/config/protractor.config.js",
-    "postinstall": "webdriver-manager update"
+    "postinstall": "npx webdriver-manager update"
   },
   "author": "",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "module-alias": "2.1.0",
     "node": "11.6.0",
     "npm-failsafe": "0.4.1",
-    "protractor": "5.4.2",
+    "protractor": "^5.4.4",
     "tslint": "5.12.1",
     "typescript": "3.2.2",
     "typescript-tslint-plugin": "0.3.0"
