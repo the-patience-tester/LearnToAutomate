@@ -14,3 +14,4 @@ src/ProtractorTypeScript/node_modules
 src/ProtractorTypeScript/.vscode
 src/ProtractorTypeScript/logs/webdriver_log*
 src/ProtractorTypeScript/tmp
+src/ProtractorTypeScript/.idea
