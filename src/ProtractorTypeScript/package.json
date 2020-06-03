@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "tsc",
     "tslint": "tslint -c config/tslint.json -p tsconfig.json",
-    "compile": "failsafe tsc tslint",
+    "compile": "failsafe tsc",
     "pretest": "npm run compile",
     "test": "protractor tmp/config/protractor.config.js",
     "postinstall": "npx webdriver-manager update"
